@@ -1,6 +1,6 @@
 {
   "name": "xgplayer-demux",
-  "version": "2.2.0-alpha.0",
+  "version": "2.2.19",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "xgplayer-utils": "^2.2.0-alpha.0",
-    "xgplayer-buffer": "^2.2.0-alpha.0",
-    "xgplayer-codec": "^2.2.0-alpha.0"
+    "xgplayer-buffer": "^2.2.19",
+    "xgplayer-codec": "^2.2.19",
+    "xgplayer-utils": "^2.2.19"
   }
 }

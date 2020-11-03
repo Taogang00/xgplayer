@@ -1,6 +1,6 @@
 {
   "name": "xgplayer-flv-live",
-  "version": "2.2.0-alpha.0",
+  "version": "2.2.19",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -11,16 +11,15 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
     "uglifyjs-webpack-plugin": "^2.2.0",
     "webpack": "^4.41.0",
     "webpack-merge": "^4.2.2",
-    "xgplayer-buffer": "^2.2.0-alpha.0",
-    "xgplayer-codec": "^2.2.0-alpha.0",
-    "xgplayer-demux": "^2.2.0-alpha.0",
-    "xgplayer-loader": "^2.2.0-alpha.0",
-    "xgplayer-remux": "^2.2.0-alpha.0",
-    "xgplayer-utils": "^2.2.0-alpha.0"
+    "xgplayer-buffer": "^2.2.19",
+    "xgplayer-codec": "^2.2.19",
+    "xgplayer-demux": "^2.2.19",
+    "xgplayer-loader": "^2.2.19",
+    "xgplayer-remux": "^2.2.19",
+    "xgplayer-utils": "^2.2.19"
   }
 }
