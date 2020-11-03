@@ -1,6 +1,6 @@
 {
   "name": "xgplayer-flv-vod",
-  "version": "2.4.0",
+  "version": "2.5.0-alpha.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -14,11 +14,11 @@
   "devDependencies": {
     "webpack": "^4.41.0",
     "webpack-merge": "^4.2.2",
-    "xgplayer-buffer": "^2.4.0",
-    "xgplayer-codec": "^2.4.0",
-    "xgplayer-demux": "^2.4.0",
-    "xgplayer-loader": "^2.4.0",
-    "xgplayer-remux": "^2.4.0",
-    "xgplayer-utils": "^2.4.0"
+    "xgplayer-buffer": "^2.5.0-alpha.0",
+    "xgplayer-codec": "^2.5.0-alpha.0",
+    "xgplayer-demux": "^2.5.0-alpha.0",
+    "xgplayer-loader": "^2.5.0-alpha.0",
+    "xgplayer-remux": "^2.5.0-alpha.0",
+    "xgplayer-utils": "^2.5.0-alpha.0"
   }
 }
