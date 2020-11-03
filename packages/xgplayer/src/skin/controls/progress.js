@@ -179,14 +179,14 @@ let s_progress = function () {
         if (player.videoConfig.mediaType === 'video' && !player.dash && !player.config.closeMoveSeek) {
           let fastNow = Number(now).toFixed(1)
           // player.currentTime = Number(now).toFixed(1)
-          console.log('fastNow', fastNow)
+          console.log('fastNow1', fastNow)
           // 允许快进/后退播放
           if (player.config.fastForward) {
-            console.log('player.currentTime 允许快进/后退播放', player.currentTime)
+            console.log('player.currentTime 允许快进/后退播放2', player.currentTime)
             player.currentTime = fastNow
           } else {
             // 禁止快进播放,但是可以后退
-            console.log('player.currentTime 禁止快进播放,但是可以后退', player.currentTime)
+            console.log('player.currentTime 禁止快进播放,但是可以后退3', player.currentTime)
             if (player.currentTime >= fastNow) {
               console.log('player.currentTime = fastNow', player.currentTime)
               player.currentTime = fastNow
