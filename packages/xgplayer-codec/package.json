@@ -1,6 +1,6 @@
 {
   "name": "xgplayer-codec",
-  "version": "2.2.0-alpha.0",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "xgplayer-utils": "^2.2.0-alpha.0"
+    "xgplayer-utils": "^1.2.0"
   }
 }

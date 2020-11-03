@@ -1,6 +1,6 @@
 {
   "name": "xgplayer-hls",
-  "version": "2.2.0-alpha.17",
+  "version": "1.2.0",
   "description": "xgplayer plugin for hls",
   "main": "./dist/index.js",
   "scripts": {
@@ -31,12 +31,12 @@
   "author": "yinguohui@bytedance.com",
   "license": "MIT",
   "dependencies": {
-    "xgplayer-utils": "^2.2.0-alpha.0",
-    "xgplayer-hls-live": "^2.2.0-alpha.0",
-    "xgplayer-hls-vod": "^2.2.0-alpha.0",
     "concat-typed-array": "^1.0.2",
     "deepmerge": "^2.0.1",
-    "event-emitter": "^0.3.5"
+    "event-emitter": "^0.3.5",
+    "xgplayer-hls-live": "^1.2.0",
+    "xgplayer-hls-vod": "^1.2.0",
+    "xgplayer-utils": "^1.2.0"
   },
   "peerDependency": {
     "xgplayer": "^0.1.0"
