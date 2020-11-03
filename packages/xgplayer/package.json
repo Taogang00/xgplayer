@@ -12,9 +12,9 @@
         "postpublish": "git push --tags",
         "build": "node ./src/version.js && webpack --progress --display-chunks -p",
         "watch": "webpack --progress --display-chunks -p --watch --mode development",
-        "release:stable": "npm version patch && npm publish --registry=http://registry.npmjs.org",
-        "release:alpha": "npm version prerelease --preid=alpha && npm publish --tag alpha --registry=http://registry.npmjs.org",
-        "release:alpha-test": "npm publish --tag alpha-test --registry=http://registry.npmjs.org"
+        "release:stable": "npm version patch && npm publish --registry=http://192.168.2.191:8081/nexus/repository/npm-hosted",
+        "release:alpha": "npm version prerelease --preid=alpha && npm publish --tag alpha --registry=http://192.168.2.191:8081/nexus/repository/npm-hosted",
+        "release:alpha-test": "npm publish --tag alpha-test --registry=http://192.168.2.191:8081/nexus/repository/npm-hosted"
     },
     "keywords": [
         "video",
@@ -31,7 +31,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/bytedance/xgplayer.git"
+        "url": "git+https://github.com/Taogang00/xgplayer.git"
     },
     "author": "yinguohui@bytedance.com",
     "license": "MIT",

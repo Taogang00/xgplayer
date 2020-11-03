@@ -177,7 +177,21 @@ let s_progress = function () {
         progress.style.width = `${w * 100 / containerWidth}%`
 
         if (player.videoConfig.mediaType === 'video' && !player.dash && !player.config.closeMoveSeek) {
-          player.currentTime = Number(now).toFixed(1)
+          let fastNow = Number(now).toFixed(1)
+          // player.currentTime = Number(now).toFixed(1)
+          console.log('fastNow', fastNow)
+          // 允许快进/后退播放
+          if (player.config.fastForward) {
+            console.log('player.currentTime 允许快进/后退播放', player.currentTime)
+            player.currentTime = fastNow
+          } else {
+            // 禁止快进播放,但是可以后退
+            console.log('player.currentTime 禁止快进播放,但是可以后退', player.currentTime)
+            if (player.currentTime >= fastNow) {
+              console.log('player.currentTime = fastNow', player.currentTime)
+              player.currentTime = fastNow
+            }
+          }
         } else {
           let time = util.findDom(player.controls, '.xgplayer-time')
           if (time) {

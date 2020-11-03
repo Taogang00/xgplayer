@@ -210,6 +210,9 @@ declare module 'xgplayer' {
         // 禁止拖动进度条
         disableProgress?: boolean;
 
+        // 允许快进/后退播放
+        fastForward?: boolean;
+
         // 打开右键菜单
         enableContextmenu?: boolean;
 
