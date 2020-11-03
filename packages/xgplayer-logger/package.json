@@ -1,6 +1,6 @@
 {
   "name": "xgplayer-logger",
-  "version": "2.2.19",
+  "version": "2.3.0",
   "description": "video player logger",
   "main": "./dist/index.js",
   "directories": {

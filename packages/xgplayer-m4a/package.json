@@ -1,6 +1,6 @@
 {
   "name": "xgplayer-m4a",
-  "version": "2.2.19",
+  "version": "2.3.0",
   "description": "xgplayer plugin for m4a transform to fmp4",
   "main": "./dist/index.js",
   "scripts": {
