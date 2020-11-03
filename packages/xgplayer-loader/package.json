@@ -1,13 +1,13 @@
 {
   "name": "xgplayer-loader",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "babel src --out-dir dist"
   },
   "dependencies": {
-    "xgplayer-utils": "^2.3.0"
+    "xgplayer-utils": "^2.4.0"
   },
   "author": "",
   "license": "ISC"
